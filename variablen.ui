@@ -55,7 +55,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>PushButton</string>
+    <string>Weiter</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_3">

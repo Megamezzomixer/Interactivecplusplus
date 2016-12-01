@@ -17,5 +17,7 @@ MainWindow::~MainWindow()
 void MainWindow::on_pushButton_clicked()
 {
     Basics *bs = new Basics();
+
     bs->show();
+
 }
