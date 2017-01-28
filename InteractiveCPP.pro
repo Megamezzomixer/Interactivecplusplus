@@ -15,12 +15,15 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp \
     basics.cpp \
-    variablen.cpp
+    variablen.cpp \
+    testmodule.cpp
 
 HEADERS  += mainwindow.h \
     basics.h \
-    variablen.h
+    variablen.h \
+    testmodule.h
 
 FORMS    += mainwindow.ui \
     basics.ui \
-    variablen.ui
+    variablen.ui \
+    testmodule.ui

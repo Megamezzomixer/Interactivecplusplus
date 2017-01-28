@@ -55,7 +55,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>Weiter</string>
+    <string>PushButton</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_3">
@@ -64,11 +64,11 @@
      <x>20</x>
      <y>230</y>
      <width>641</width>
-     <height>151</height>
+     <height>261</height>
     </rect>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;Wie wird eine Variable verwendet?&lt;br&gt;&lt;/span&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Um eine Variable zu verwenden, muss der User Sie zualler erst ins Leben&lt;br/&gt;rufen(deklarieren). Nach der Deklaration folgt die Initialisierung, wobei der Variable&lt;br/&gt;ein bestimmter Wert übergeben wird.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;Wo wird eine Variable verwendet?&lt;br&gt; &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Eine Variable wird innerhalb des Programms initialisiert, deklariert &lt;br&gt;und benutzt. Sie wird innerhalb der Klasse und der Methode verwendet.&lt;br&gt; Die Variable kann nicht außerhalb einer Klasse verwendet werden.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Beispiel:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;int x = 10;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;if (&lt;/span&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;x&lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;+3==13)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;{ } &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
  </widget>
