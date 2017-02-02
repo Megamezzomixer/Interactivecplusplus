@@ -48,14 +48,14 @@
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>560</x>
-     <y>370</y>
+     <x>570</x>
+     <y>470</y>
      <width>80</width>
      <height>27</height>
     </rect>
    </property>
    <property name="text">
-    <string>PushButton</string>
+    <string>Weiter</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_3">
@@ -71,6 +71,10 @@
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;Wo wird eine Variable verwendet?&lt;br&gt; &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Eine Variable wird innerhalb des Programms initialisiert, deklariert &lt;br&gt;und benutzt. Sie wird innerhalb der Klasse und der Methode verwendet.&lt;br&gt; Die Variable kann nicht außerhalb einer Klasse verwendet werden.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Beispiel:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;int x = 10;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;if (&lt;/span&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;x&lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;+3==13)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;{ } &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>pushButton</zorder>
  </widget>
  <resources/>
  <connections/>

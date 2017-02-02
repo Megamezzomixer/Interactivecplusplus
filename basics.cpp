@@ -1,6 +1,8 @@
 #include "basics.h"
 #include "ui_basics.h"
 #include "variablen.h"
+#include <iostream>
+#include <fstream>
 
 Basics::Basics(QWidget *parent) :
     QDialog(parent),
@@ -18,4 +20,18 @@ void Basics::on_pushButton_clicked()
 {
     Variablen *var = new Variablen();
     var->show();
+
+//    std::ifstream file("progress.txt");
+//std::string temp;
+//std::getline(file, temp);
+
+//if(temp.find("variablen = true") != std::string::npos)
+//{
+
+//schleifenButton->enabled(true);
+//schleifenButton->setStyleSheet("background-color:blue");
+
+
+//}
+
 }

@@ -18,10 +18,9 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
-    //Basics *bs = new Basics();
-    //bs->show();
+    Basics *bs = new Basics();
+    bs->show();
 
-    testModule *tm = new testModule();
-    tm->show();
+
 
 }

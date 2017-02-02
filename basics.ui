@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>148</width>
+    <width>267</width>
     <height>300</height>
    </rect>
   </property>
@@ -16,14 +16,53 @@
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>40</y>
+     <x>90</x>
+     <y>60</y>
      <width>80</width>
      <height>27</height>
     </rect>
    </property>
    <property name="text">
     <string>Variablen</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>10</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;Interactive C&lt;/span&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; color:#ff0000;&quot;&gt;++&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>120</y>
+     <width>80</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Schleifen</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>90</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
    </property>
   </widget>
  </widget>
