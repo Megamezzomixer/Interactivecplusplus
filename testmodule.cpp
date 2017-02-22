@@ -59,4 +59,3 @@ if(wert1 && wert2 && wert3 && wert4 && wert5 && wert6 && wert7)
 }
 }
 }
-

@@ -15,6 +15,9 @@ public:
     explicit schleifen(QWidget *parent = 0);
     ~schleifen();
     
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::schleifen *ui;
 };
