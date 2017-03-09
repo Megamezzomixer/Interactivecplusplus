@@ -8,7 +8,7 @@ Tagesdokumentation
 
 08.09.2016: Erstes Formular erstellen
 
-15.09.2016: Plan für das Design des Programmes ausgearbeitet
+15.09.2016: Plan fÃ¼r das Design des Programmes ausgearbeitet
 
 22.09.2016: "Gedankenmodell" erstellt, definition
 
@@ -20,8 +20,15 @@ Tagesdokumentation
 
 20.10.2016: Problemstellung: QT Multiuser-support untersuchen
 
-27.10.2016: GitHub repository erstellt und befüllt
+27.10.2016: GitHub repository erstellt und befÃ¼llt
 
 03.11.2016: 
 
-//NOTE: Diese Dokumentation ist noch nicht Vollständig
+// .. //
+
+23.02.2017: M: Dokumentation erstellt | K: Textformatierung, TestModul2 angefangen
+
+02.03.2017: -/-
+
+09.03.2017: M: Dokumentation addiert | K: TestModul2 entwickelt 
+//NOTE: Diese Dokumentation ist noch nicht VollstÃ¤ndig
