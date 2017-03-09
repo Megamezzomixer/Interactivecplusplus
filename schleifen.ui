@@ -10,7 +10,7 @@
     <x>0</x>
     <y>0</y>
     <width>670</width>
-    <height>573</height>
+    <height>564</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -40,19 +40,6 @@
    </property>
    <property name="text">
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;Definition:&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;In der Programmierung dient eine Schleife dazu um Wiederholungen&lt;br&gt; in einem Programm zu realisieren, also um Dinge merhmals zu machen.&lt;br/&gt;Jede Schleife hat eine Durchlauf-Bedingung, die erfüllt werden muss &lt;br&gt;damit ein Durchlauf erfolgt.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_3">
-   <property name="geometry">
-    <rect>
-     <x>10</x>
-     <y>220</y>
-     <width>641</width>
-     <height>351</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;Wo wird eine Schleife verwendet?&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Eine Schleife wird innerhalb des Programms ausgeführt. Sie wird innerhalb &lt;br&gt;der Klasse und der Methode verwendet. Die Schleife kann nicht außerhalb &lt;br&gt;einer Klasse verwendet werden.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Beispiel:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;public void fahren()&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;{&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;for(i=0;i&amp;lt;10;i++)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;{&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;}&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;}&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton">

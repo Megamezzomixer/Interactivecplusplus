@@ -17,16 +17,19 @@ SOURCES += main.cpp\
     basics.cpp \
     variablen.cpp \
     testmodule.cpp \
-    schleifen.cpp
+    schleifen.cpp \
+    testmodule2.cpp
 
 HEADERS  += mainwindow.h \
     basics.h \
     variablen.h \
     testmodule.h \
-    schleifen.h
+    schleifen.h \
+    testmodule2.h
 
 FORMS    += mainwindow.ui \
     basics.ui \
     variablen.ui \
     testmodule.ui \
-    schleifen.ui
+    schleifen.ui \
+    testmodule2.ui

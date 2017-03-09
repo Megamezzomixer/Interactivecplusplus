@@ -3,6 +3,7 @@
 #include "variablen.h"
 #include <iostream>
 #include <fstream>
+#include "schleifen.h"
 
 Basics::Basics(QWidget *parent) :
     QDialog(parent),
@@ -35,3 +36,12 @@ void Basics::on_pushButton_clicked()
 //}
 
 }
+
+void Basics::on_pushButton_2_clicked()
+{
+    schleifen *loops = new schleifen();
+    loops->show();
+}
+
+
+
