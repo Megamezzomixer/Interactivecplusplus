@@ -18,18 +18,21 @@ SOURCES += main.cpp\
     variablen.cpp \
     testmodule.cpp \
     schleifen.cpp \
-    testmodule2.cpp
+    testmodule2.cpp \
+    pointer.cpp
 
 HEADERS  += mainwindow.h \
     basics.h \
     variablen.h \
     testmodule.h \
     schleifen.h \
-    testmodule2.h
+    testmodule2.h \
+    pointer.h
 
 FORMS    += mainwindow.ui \
     basics.ui \
     variablen.ui \
     testmodule.ui \
     schleifen.ui \
-    testmodule2.ui
+    testmodule2.ui \
+    pointer.ui

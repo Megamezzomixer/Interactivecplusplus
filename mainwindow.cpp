@@ -2,6 +2,7 @@
 #include "ui_mainwindow.h"
 #include "basics.h"
 #include "testmodule.h"
+#include "pointer.h"
 
 
 MainWindow::MainWindow(QWidget *parent) :

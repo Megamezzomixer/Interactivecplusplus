@@ -4,6 +4,7 @@
 #include <iostream>
 #include <fstream>
 #include "schleifen.h"
+#include "pointer.h"
 
 Basics::Basics(QWidget *parent) :
     QDialog(parent),
@@ -45,3 +46,9 @@ void Basics::on_pushButton_2_clicked()
 
 
 
+
+void Basics::on_pushButton_3_clicked()
+{
+    Pointer *point = new Pointer();
+    point->show();();
+}
