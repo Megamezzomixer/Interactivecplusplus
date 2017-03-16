@@ -1,4 +1,4 @@
-Tagesdokumentation
+, RückTagesdokumentation
 
 18.08.2016: Projektpartnerzuteilung
 
@@ -20,15 +20,22 @@ Tagesdokumentation
 
 20.10.2016: Problemstellung: QT Multiuser-support untersuchen
 
-27.10.2016: GitHub repository erstellt und befüllt
+27.10.2016: GitHub repository erstellt und befüllt.
 
 03.11.2016: 
 
 // .. //
 
-23.02.2017: M: Dokumentation erstellt | K: Textformatierung, TestModul2 angefangen
+09.02.2017: M: erstes TestModul erstellt, Textformulierung begonnen | K: Textforumulierungen weitergeführt
+
+16.02.1017: M: erstes TestModul verfeinert Problemstellung HTML-Umlaute gelöst, Textformulierung abgeschlossen
+
+23.02.2017: M: Dokumentation erstellt | K: Textformatierung, TestModul2 angefangen, Fragen überlegt, Text formuliert
 
 02.03.2017: -/-
 
-09.03.2017: M: Dokumentation addiert | K: TestModul2 entwickelt 
+09.03.2017: M: Dokumentation addiert | K: TestModul2 entwickelt
+
+16.03.2017: M: Dokumentation addiert, | K: Mit Schleifen abgeschlossen, Pointer Form erstellt.
+
 //NOTE: Diese Dokumentation ist noch nicht Vollständig
