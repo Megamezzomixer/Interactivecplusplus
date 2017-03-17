@@ -102,7 +102,7 @@ void testModule::on_pushButton_clicked()
         }
 
         if (wert1 && wert2 && wert3 && wert4 && wert5 && wert6 && wert7) {
-            std::ofstream out("./progress.txt");
+            std::ofstream out("progress.txt");
 
             out << "variablen = true";
             out.close();
