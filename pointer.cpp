@@ -8,7 +8,7 @@ Pointer::Pointer(QWidget *parent) :
     ui->setupUi(this);
 }
 
-int Zaehler = 1();
+int Zaehler = 1;
 
 Pointer::~Pointer()
 {
