@@ -22,6 +22,10 @@ testmodule2::~testmodule2()
 
 void testmodule2::on_pushButton_clicked()
 {
+    QMessageBox::StandardButton reply;
+    reply = QMessageBox::question(this, "Bestätigung", "Sind alle Daten korrekt?", QMessageBox::Yes|QMessageBox::No);
+    if(reply == QMessageBox::Yes)
+    {
 
 
     bool wert1;
@@ -89,7 +93,7 @@ void testmodule2::on_pushButton_clicked()
     {ui->tb1_2->setStyleSheet("background-color:red"); wert3 = false;}
 
 
-
+}
 
 
 }

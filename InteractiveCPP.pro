@@ -20,7 +20,10 @@ SOURCES += main.cpp\
     schleifen.cpp \
     testmodule2.cpp \
     pointer.cpp \
-    testmodule3.cpp
+    testmodule3.cpp \
+    conditions.cpp \
+    ifelse.cpp \
+    switchcase.cpp
 
 HEADERS  += mainwindow.h \
     basics.h \
@@ -29,7 +32,10 @@ HEADERS  += mainwindow.h \
     schleifen.h \
     testmodule2.h \
     pointer.h \
-    testmodule3.h
+    testmodule3.h \
+    conditions.h \
+    ifelse.h \
+    switchcase.h
 
 FORMS    += mainwindow.ui \
     basics.ui \
@@ -38,4 +44,7 @@ FORMS    += mainwindow.ui \
     schleifen.ui \
     testmodule2.ui \
     pointer.ui \
-    testmodule3.ui
+    testmodule3.ui \
+    conditions.ui \
+    ifelse.ui \
+    switchcase.ui

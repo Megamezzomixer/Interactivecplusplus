@@ -3,6 +3,7 @@
 #include "basics.h"
 #include "testmodule.h"
 #include "pointer.h"
+#include "conditions.h"
 
 
 MainWindow::MainWindow(QWidget *parent) :
@@ -23,4 +24,10 @@ void MainWindow::on_pushButton_clicked()
     bs->show();
 
 
+}
+
+void MainWindow::on_pushButton_2_clicked()
+{
+    Conditions *con = new Conditions();
+    con->show();
 }
