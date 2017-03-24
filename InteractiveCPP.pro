@@ -19,7 +19,8 @@ SOURCES += main.cpp\
     testmodule.cpp \
     schleifen.cpp \
     testmodule2.cpp \
-    pointer.cpp
+    pointer.cpp \
+    testmodule3.cpp
 
 HEADERS  += mainwindow.h \
     basics.h \
@@ -27,7 +28,8 @@ HEADERS  += mainwindow.h \
     testmodule.h \
     schleifen.h \
     testmodule2.h \
-    pointer.h
+    pointer.h \
+    testmodule3.h
 
 FORMS    += mainwindow.ui \
     basics.ui \
@@ -35,4 +37,5 @@ FORMS    += mainwindow.ui \
     testmodule.ui \
     schleifen.ui \
     testmodule2.ui \
-    pointer.ui
+    pointer.ui \
+    testmodule3.ui
