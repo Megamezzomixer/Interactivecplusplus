@@ -15,6 +15,9 @@ public:
     explicit ifelse(QWidget *parent = 0);
     ~ifelse();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::ifelse *ui;
 };
