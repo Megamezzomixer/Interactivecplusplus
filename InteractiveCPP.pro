@@ -24,7 +24,8 @@ SOURCES += main.cpp\
     conditions.cpp \
     ifelse.cpp \
     switchcase.cpp \
-    testmodule4.cpp
+    testmodule4.cpp \
+    testmodule5.cpp
 
 HEADERS  += mainwindow.h \
     basics.h \
@@ -37,7 +38,8 @@ HEADERS  += mainwindow.h \
     conditions.h \
     ifelse.h \
     switchcase.h \
-    testmodule4.h
+    testmodule4.h \
+    testmodule5.h
 
 FORMS    += mainwindow.ui \
     basics.ui \
@@ -50,4 +52,5 @@ FORMS    += mainwindow.ui \
     conditions.ui \
     ifelse.ui \
     switchcase.ui \
-    testmodule4.ui
+    testmodule4.ui \
+    testmodule5.ui

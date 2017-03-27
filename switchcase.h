@@ -15,6 +15,9 @@ public:
     explicit switchcase(QWidget *parent = 0);
     ~switchcase();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::switchcase *ui;
 };

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>testmodule4</class>
- <widget class="QDialog" name="testmodule4">
+ <class>testmodule5</class>
+ <widget class="QDialog" name="testmodule5">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>414</width>
-    <height>593</height>
+    <width>390</width>
+    <height>482</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -30,64 +30,61 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>70</y>
-     <width>321</width>
-     <height>51</height>
+     <y>80</y>
+     <width>331</width>
+     <height>41</height>
     </rect>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Welche der folgenden Aussagen treffen über&lt;br&gt; die If-esle Anweisung zu?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>Wann wird eine Switch-Case einer If-Anweisung &lt;br&gt;vorgezogen?</string>
    </property>
   </widget>
   <widget class="QCheckBox" name="checkBox">
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>120</y>
-     <width>301</width>
+     <y>130</y>
+     <width>361</width>
      <height>22</height>
     </rect>
    </property>
    <property name="text">
-    <string>Sie kann mehrere Bedingungen haben.</string>
+    <string>Wenn es nur eine zu überprüfende Variable gibt.</string>
    </property>
   </widget>
   <widget class="QCheckBox" name="checkBox_2">
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>150</y>
-     <width>401</width>
+     <y>160</y>
+     <width>371</width>
      <height>22</height>
     </rect>
    </property>
-   <property name="toolTip">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;d&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-   </property>
    <property name="text">
-    <string>Die Bedingung dient zur Entscheidung der Anweisung.</string>
+    <string>Wenn nur Zahlenwerte überprüft werden sollen.</string>
    </property>
   </widget>
   <widget class="QCheckBox" name="checkBox_3">
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>180</y>
-     <width>461</width>
+     <y>190</y>
+     <width>371</width>
      <height>22</height>
     </rect>
    </property>
    <property name="text">
-    <string>Die Anweisung muss mindestens eine Bedinung haben.</string>
+    <string>Wenn Integer Variabken überprüft werden sollen.</string>
    </property>
   </widget>
   <widget class="Line" name="line">
    <property name="geometry">
     <rect>
-     <x>0</x>
-     <y>200</y>
+     <x>-40</x>
+     <y>210</y>
      <width>441</width>
-     <height>16</height>
+     <height>20</height>
     </rect>
    </property>
    <property name="orientation">
@@ -98,99 +95,77 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>220</y>
-     <width>401</width>
-     <height>17</height>
+     <y>230</y>
+     <width>371</width>
+     <height>51</height>
     </rect>
    </property>
    <property name="text">
-    <string>Welche der folgenden Formulierungen sind richitg?</string>
-   </property>
-  </widget>
-  <widget class="QCheckBox" name="checkBox_4">
-   <property name="geometry">
-    <rect>
-     <x>10</x>
-     <y>250</y>
-     <width>97</width>
-     <height>22</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>(if (x = 10)))</string>
-   </property>
-  </widget>
-  <widget class="QCheckBox" name="checkBox_5">
-   <property name="geometry">
-    <rect>
-     <x>10</x>
-     <y>280</y>
-     <width>97</width>
-     <height>22</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>if(x = 10)</string>
-   </property>
-  </widget>
-  <widget class="QCheckBox" name="checkBox_6">
-   <property name="geometry">
-    <rect>
-     <x>10</x>
-     <y>310</y>
-     <width>97</width>
-     <height>22</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>else(x=10)</string>
-   </property>
-  </widget>
-  <widget class="Line" name="line_2">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>330</y>
-     <width>441</width>
-     <height>16</height>
-    </rect>
-   </property>
-   <property name="orientation">
-    <enum>Qt::Horizontal</enum>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Zeige mithilfe der Switch-Case an, welchen Wert &lt;br/&gt;die Variable &amp;quot;b&amp;quot; hat. Das Label soll b=? anzeigen. &lt;br/&gt;(? = gesuchte Zahl)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>350</y>
-     <width>401</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Sobald die folgende Bedingung zutrifft, soll Variable &amp;quot;b&amp;quot; &lt;br&gt;den Wert von Variable &amp;quot;a&amp;quot; bekommen. Die Bedingung&lt;br&gt; laute, ist x = 10. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_5">
-   <property name="geometry">
-    <rect>
-     <x>10</x>
-     <y>410</y>
+     <y>290</y>
      <width>67</width>
      <height>17</height>
     </rect>
    </property>
    <property name="text">
-    <string>int x = 10;</string>
+    <string>int b = 3;</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="tb1">
    <property name="geometry">
     <rect>
-     <x>40</x>
-     <y>490</y>
-     <width>161</width>
+     <x>10</x>
+     <y>310</y>
+     <width>113</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>290</y>
+     <width>67</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;{&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="tb2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>340</y>
+     <width>113</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="tb3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>370</y>
+     <width>113</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="tb4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>400</y>
+     <width>113</width>
      <height>27</height>
     </rect>
    </property>
@@ -198,109 +173,155 @@
   <widget class="QLabel" name="label_6">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>430</y>
-     <width>67</width>
+     <x>150</x>
+     <y>340</y>
+     <width>131</width>
      <height>17</height>
     </rect>
    </property>
    <property name="text">
-    <string>int a = 12;</string>
+    <string>ui-&gt;label-&gt;setText</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_7">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>450</y>
-     <width>67</width>
+     <x>150</x>
+     <y>370</y>
+     <width>131</width>
      <height>17</height>
     </rect>
    </property>
    <property name="text">
-    <string>int b;</string>
+    <string>ui-&gt;label-&gt;setText</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_8">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>490</y>
-     <width>20</width>
-     <height>20</height>
+     <x>150</x>
+     <y>400</y>
+     <width>131</width>
+     <height>17</height>
     </rect>
    </property>
    <property name="text">
-    <string>(</string>
+    <string>ui-&gt;label-&gt;setText</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="tb5">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>340</y>
+     <width>71</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="tb6">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>370</y>
+     <width>71</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="tb7">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>400</y>
+     <width>71</width>
+     <height>27</height>
+    </rect>
    </property>
   </widget>
   <widget class="QLabel" name="label_9">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>480</y>
-     <width>31</width>
-     <height>41</height>
+     <x>290</x>
+     <y>340</y>
+     <width>21</width>
+     <height>21</height>
     </rect>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;if&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>(&quot;</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_10">
    <property name="geometry">
     <rect>
-     <x>206</x>
-     <y>490</y>
-     <width>71</width>
+     <x>370</x>
+     <y>340</y>
+     <width>31</width>
      <height>21</height>
     </rect>
    </property>
    <property name="text">
-    <string>)</string>
+    <string>&quot;)</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_11">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>520</y>
-     <width>71</width>
+     <x>290</x>
+     <y>370</y>
+     <width>21</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>(&quot;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>370</y>
+     <width>31</width>
      <height>21</height>
     </rect>
    </property>
    <property name="text">
-    <string>{</string>
+    <string>&quot;)</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_12">
+  <widget class="QLabel" name="label_14">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>560</y>
-     <width>71</width>
+     <x>290</x>
+     <y>400</y>
+     <width>21</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>(&quot;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>400</y>
+     <width>31</width>
      <height>21</height>
     </rect>
    </property>
    <property name="text">
-    <string>}</string>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="tb2">
-   <property name="geometry">
-    <rect>
-     <x>40</x>
-     <y>540</y>
-     <width>113</width>
-     <height>27</height>
-    </rect>
+    <string>&quot;)</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>310</x>
-     <y>560</y>
+     <x>280</x>
+     <y>450</y>
      <width>99</width>
      <height>27</height>
     </rect>

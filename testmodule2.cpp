@@ -28,13 +28,10 @@ void testmodule2::on_pushButton_clicked()
     {
 
 
-    bool wert1;
-    bool wert2;
+
     bool wert3;
-    bool wert4;
     bool wert5;
-    bool wert6;
-    bool wert7;
+
 
 
     ui->tb1->setEnabled(false);
