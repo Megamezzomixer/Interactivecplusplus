@@ -4,6 +4,8 @@
 #include "testmodule.h"
 #include "pointer.h"
 #include "conditions.h"
+#include "classses.h"
+#include "handbuch.h"
 
 
 MainWindow::MainWindow(QWidget *parent) :
@@ -30,4 +32,17 @@ void MainWindow::on_pushButton_2_clicked()
 {
     Conditions *con = new Conditions();
     con->show();
+}
+
+void MainWindow::on_pushButton_3_clicked()
+{
+    classses *cs = new classses();
+    cs->show();
+
+}
+
+void MainWindow::on_pushButton_4_clicked()
+{
+    handbuch *hb = new handbuch();
+    hb->show();
 }

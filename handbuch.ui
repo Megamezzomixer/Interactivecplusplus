@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>handbuch</class>
+ <widget class="QDialog" name="handbuch">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>620</width>
+    <height>502</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>0</y>
+     <width>301</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;Interactive C&lt;/span&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; color:#ff0000;&quot;&gt;++&lt;/span&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt; Handbuch&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>581</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;Das Hauptmenü&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Im Hauptmenü kann der User zwischen den einzelen &lt;br&gt;Themengebieten wählen. Sobald er einen Button geklickt &lt;br&gt;hat, kommt er zu einer Form, wo sich Buttons befinden, &lt;br&gt;mit denen man zu den einzelnen Themen kommt.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;Die Themenblätter&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Wenn der User eins der einzelnen Themen erreicht hat,&lt;br&gt; wird ihm das Thema anhand eines Besipiels erklärt. &lt;br&gt;Folgt der User den Anweisungen der einzelnen Formen,&lt;br&gt; kommt man zum Test, wo der er sein erlerntes Wissen&lt;br&gt; unter Beweis stellen kann.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
