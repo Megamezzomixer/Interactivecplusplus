@@ -111,27 +111,14 @@
    <widget class="QPushButton" name="pushButton_4">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>300</y>
+      <x>140</x>
+      <y>310</y>
       <width>99</width>
       <height>27</height>
      </rect>
     </property>
     <property name="text">
      <string>Handbuch</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_5">
-    <property name="geometry">
-     <rect>
-      <x>280</x>
-      <y>300</y>
-      <width>99</width>
-      <height>27</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>About </string>
     </property>
    </widget>
   </widget>
@@ -141,7 +128,7 @@
      <x>0</x>
      <y>0</y>
      <width>396</width>
-     <height>25</height>
+     <height>24</height>
     </rect>
    </property>
   </widget>

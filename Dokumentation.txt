@@ -38,6 +38,4 @@ RückTagesdokumentation
 
 16.03.2017: M: Dokumentation addiert, | K: Mit Schleifen abgeschlossen, Pointer Form erstellt.
 
-30.03.2017: M: Externem Projektmanager bei Problemen mit Code geholfen.
-
 //NOTE: Diese Dokumentation ist noch nicht Vollständig
