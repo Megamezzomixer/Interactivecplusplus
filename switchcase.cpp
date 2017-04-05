@@ -23,7 +23,7 @@ void switchcase::on_pushButton_clicked()
 {
     if(zaehler4 == 1)
     {
-        ui->label_2->setText("<html><head/><body><p><span style=" "font-size:18pt;"">Wie wird eine switch case Anweisung verwendet?</span></p><p><span style=" "font-size:16pt;"">Möchten wir viele Fälle unterscheiden und für jeden Fall<br> unterschiedliche Aktionen ausführen, so können wir das mit <br>vielen </span><span style=" "font-size:16pt; font-weight:600;"">if</span><span style=" "font-size:16pt;""> Anweisungen oder mit einer </span><span style="" font-size:16pt; font-weight:600;"">switch case</span><span style=" "font-size:16pt;""> Anweisung <br>erreichen.</span></p><p><br/></p><p><br/></p></body></html>");// WIE
+        ui->label_2->setText("<html><head/><body><p><span style=" "font-size:18pt;"">Wie wird eine switch case Anweisung verwendet?</span></p><p><span style=" "font-size:16pt;"">M&ouml;chten wir viele F&auml;lle unterscheiden und f&uuml;r jeden Fall<br> unterschiedliche Aktionen ausf&uuml;hren, so k&ouml;nnen wir das mit <br>vielen </span><span style=" "font-size:16pt; font-weight:600;"">if</span><span style=" "font-size:16pt;""> Anweisungen oder mit einer </span><span style="" font-size:16pt; font-weight:600;"">switch case</span><span style=" "font-size:16pt;""> Anweisung <br>erreichen.</span></p><p><br/></p><p><br/></p></body></html>");// WIE
     }
     else if(zaehler4 == 2)
     {
